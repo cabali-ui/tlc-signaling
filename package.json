@@ -1,0 +1,16 @@
+{
+  "name": "truelove-connection",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node chat-server.js",
+    "signaling": "node signaling-server.js",
+    "chat-server": "node chat-server.js",
+    "chat-server:dev": "node chat-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.20.0"
+  }
+}
